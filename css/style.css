@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    margin-top: 25px;
+    font-family: var(--font1);
+    /* height: 70px; */
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftnav {
+    /* font-size: 20px; */
+    display: flex;
+}
+
+.leftnav p {
+    font-size: 40px;
+    padding-top: 2px;
+    color: var(--main-bg-color);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.leftnav span img {
+    border-radius: 100px;
+}
+
+.leftnav ul {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+    font-size: 22px;
+}
+
+.leftnav ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    font-weight: bold;
+}
+
+.leftnav ul li a {
+    text-decoration: none;
+    color: black;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+.leftnav ul li a:hover {
+    color: var(--main-bg-color);
+    /* font-weight: bolder; */
+
+}
+
+.rightnav {
+
+    display: inline-flex;
+
+}
+
+
+.partition {
+    height: 1.5px;
+    background-color: var(--main-bg-color);
+}
+
+.content {
+    background-color: rgba(157, 183, 211, 0.6);
+    display: flex;
+    /* opacity: 0.5px; */
+    height: 100%;
+    /* background-color: rgb(147, 147, 192); */
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.leftcontent {
+    font-family: var(--font1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    /* width: 40%; */
+}
+
+.leftcontent p {
+    margin-bottom: 10px;
+}
+
+.rightcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 60%; */
+}
+
+.rightcontent img {
+    height: 270px;
+    /* border-radius: 10000px; */
+}
+
+.home-articles {
+    /* background-color: yellow; */
+    padding: 12px;
+    margin-top: 23px;
+    position: relative;
+}
+
+.home-articles h1 {
+    padding-left: 20px;
+    display: block;
+    
+}
+
+.year-box {
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    font-size: 15px;
+    right: 0px;
+    top: 15px;
+}
+
+.year-box div {
+    margin: 9px 0;
+}
+
+.home-article {
+    display: flex;
+    margin: 30px;
+}
+
+.home-article img {
+    width: 200px;
+    height: 100px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
+.formbg{
+    background-color: rgba(157, 183, 211, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.footer {
+    height: 54px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}

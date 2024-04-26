@@ -1,0 +1,25 @@
+.about-content{
+    background-color: rgba(157, 183, 211, 0.6) ;
+    display:flex;
+    height: 100vh;
+    
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.about-head{
+    size: 35px;
+    font-weight: bold;
+    color: rgb(17, 40, 63);
+    text-align: left;
+}
+.about-content h2{
+    color:var(--main-bg-color);
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom:5px ;
+}
+.about-content p{
+    font-size: 18px;
+    margin-top: 7px;
+}

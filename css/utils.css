@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --main-bg-color:rgb(30,63,95);
+    --font1:"Figtree", sans-serif;
+    --font2:"Encode Sans Condensed", sans-serif;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+.max-width-3{
+    max-width: 40vw;
+}
+.m-auto{
+    margin: auto;
+}
+
+.my-1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+.btn{
+    text-decoration: none;
+    /* margin-bottom: 10px; */
+    padding: 7px 12px;
+    /* border: px solid var(--main-bg-color); */
+    border: none;
+    background-color:rgb(51, 100, 149) ;
+    border-radius:20px ;
+    font-size: 16px;
+    font-family: var(--font1);
+    margin:8px 4px;
+    cursor: pointer;
+    transition:all 0.3s ease-in-out ;
+    color: white;
+}
+.btn:hover{
+    color:white;
+    background:var(--main-bg-color);
+}
+
+.form-input{
+    padding:5px 10px ;
+    margin-top: 10px;
+    font-family: var(--font1s);
+    font-size: 15px;
+    border:2px solid var(--main-bg-color);
+    border-radius: 20px;
+}
+
+.form-box input, textarea{
+    width: 25vw;
+    margin: 2px 0;
+    padding: 8px 12px ;
+    border-radius: 20px;
+    border:1px solid var(--main-bg-color);
+}
+.form-box label{
+    margin-left: 10px;
+    font-family: var(--font1);
+}
+.form-box{
+    margin-top: 8px;
+    color: rgb(17, 40, 63);;
+}
