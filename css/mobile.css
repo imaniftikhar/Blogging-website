@@ -67,6 +67,18 @@
     .Sform-box input, textarea{
         width: 45vw;
     }
+    .contact-content{
+        display: block;
+    }
+    .contact-left{
+        width: 80%;
+    }
+    .contact-right{
+        width: 80%;
+    }
+    .form-box input, textarea{
+        width: 55vw;
+    }
 }
 
 @media screen and(max-width:400px) {
