@@ -61,9 +61,12 @@
         font-size: 20px;
         font-weight: 1000;
     }
-
-
-
+    .max-width-3{
+        max-width: 80vw;
+    }
+    .Sform-box input, textarea{
+        width: 45vw;
+    }
 }
 
 @media screen and(max-width:400px) {

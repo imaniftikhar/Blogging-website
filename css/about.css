@@ -1,7 +1,7 @@
 .about-content{
     background-color: rgba(157, 183, 211, 0.6) ;
     display:flex;
-    height: 100vh;
+    /* height: 100vh; */
     
     margin-top: 15px;
     padding: 10px;
